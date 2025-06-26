@@ -1,0 +1,51 @@
+.home-button{
+    background-color: chocolate;
+    color: white;
+    border: 1px solid grey;
+    padding: 0.75rem 1.5rem;
+    transition: 3ms ease-in;
+    border-radius: 10px;
+}
+.home-button:hover{
+    cursor: pointer;
+    background-color: rgb(134, 68, 20) ;
+}
+
+.home-input{
+    padding: 1% 2%;
+    border-radius: 10px;
+    border: 1px solid rgb(13, 63, 20);
+    /* margin-top: 8%; */
+}
+h1{
+    font: bold;
+    font-size: 3.5rem;
+}
+
+.card-about{
+    transition: 1s ease-out;
+    box-shadow: 2px 3px 0px rgba(165, 163, 163, 0.559);
+}
+.card-about:hover{
+    background-color: rgb(235, 205, 150);
+    transform: translateY(-10px);
+}
+.remove-wishlist-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wishilist-read-button{
+    background-color: #256028; /* Red */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

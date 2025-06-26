@@ -1,0 +1,33 @@
+.nav-button{
+    background-color: chocolate;
+    padding: 1% 3%;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav-button :hover{
+    cursor: pointer;
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+.arrow-buttons{
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: xx-large;
+    transition: 5ms ease;
+}
+.arrow-buttons:hover{
+    background-color: rgb(125, 57, 9);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.content{
+    background-color: rgb(210, 105, 30);
+}

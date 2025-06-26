@@ -1,0 +1,10 @@
+.login-background{
+    background-image: url('../assets/loginbg.png');
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+.inner-container {
+    opacity: 1;
+}
